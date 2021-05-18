@@ -478,17 +478,18 @@
 }
 .sign-up{
     padding: 5px;
-    background-color:rgba(52, 68, 68, 0.671);
+    margin: 10px 10px;
+    width: 80%;
+    border-radius:8px;
+    background-color:rgba(0, 0, 0, 0.815);
     color: white;
     border:1px solid #333;
-    border-radius:10px;
     transition-property: color,background-color,transform;
     transition-duration: 0.3s;
 }
 .sign-up:hover{
-    color: #333;
-    background-color:rgba(240, 184, 184, 0.74);
-    transform: scale(1.03);
+    color: rgba(255, 255, 255, 0.623);
+    background-color:rgba(0, 0, 0, 0.699);
 }
 /* footer */
 #cta h3{
