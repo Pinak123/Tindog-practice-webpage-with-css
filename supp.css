@@ -12,11 +12,21 @@ body{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   width: 300px;
-   position:relative;
-   height: 200px;
+   width: 250px;
+   height: 250px;
    line-height: 1.5;
    padding:10px;
    text-align: center;
-   margin: auto;
+   margin: 6% auto 0;
+}
+.me{
+    width: 100%;
+}
+.me input{
+    width: 100%;
+    margin: 5px;
+}
+.me button{
+    color: white;
+    background-color:rgba(0, 0, 255, 0.733);
 }
